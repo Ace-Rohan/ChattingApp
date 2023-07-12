@@ -21,7 +21,7 @@ public class Client implements ActionListener {
 
         f.setLayout(null);
         JPanel p1 = new JPanel();
-        p1.setBackground(new Color(7, 94, 84));
+        p1.setBackground(new Color(81, 125, 162));
         p1.setBounds(0, 0, 450, 70);
         p1.setLayout(null);
         f.add(p1);
@@ -46,28 +46,28 @@ public class Client implements ActionListener {
         profile.setBounds(40, 10, 50, 50);
         p1.add(profile);
 
-        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("icons/video.png"));
-        Image i8 = i7.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
-        ImageIcon i9 = new ImageIcon(i8);
-        JLabel video = new JLabel(i9);
-        video.setBounds(300, 20, 30, 30);
-        p1.add(video);
+        // ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("icons/video.png"));
+        // Image i8 = i7.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
+        // ImageIcon i9 = new ImageIcon(i8);
+        // JLabel video = new JLabel(i9);
+        // video.setBounds(300, 20, 30, 30);
+        // p1.add(video);
 
-        ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("icons/phone.png"));
-        Image i11 = i10.getImage().getScaledInstance(35, 30, Image.SCALE_DEFAULT);
-        ImageIcon i12 = new ImageIcon(i11);
-        JLabel phone = new JLabel(i12);
-        phone.setBounds(360, 20, 35, 30);
-        p1.add(phone);
+        // ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("icons/phone.png"));
+        // Image i11 = i10.getImage().getScaledInstance(35, 30, Image.SCALE_DEFAULT);
+        // ImageIcon i12 = new ImageIcon(i11);
+        // JLabel phone = new JLabel(i12);
+        // phone.setBounds(360, 20, 35, 30);
+        // p1.add(phone);
 
-        ImageIcon i13 = new ImageIcon(ClassLoader.getSystemResource("icons/3icon.png"));
-        Image i14 = i13.getImage().getScaledInstance(10, 25, Image.SCALE_DEFAULT);
-        ImageIcon i15 = new ImageIcon(i14);
-        JLabel morevert = new JLabel(i15);
-        morevert.setBounds(420, 20, 10, 25);
-        p1.add(morevert);
+        // ImageIcon i13 = new ImageIcon(ClassLoader.getSystemResource("icons/3icon.png"));
+        // Image i14 = i13.getImage().getScaledInstance(10, 25, Image.SCALE_DEFAULT);
+        // ImageIcon i15 = new ImageIcon(i14);
+        // JLabel morevert = new JLabel(i15);
+        // morevert.setBounds(420, 20, 10, 25);
+        // p1.add(morevert);
 
-        JLabel name = new JLabel("Depak Sir");
+        JLabel name = new JLabel("Deepak Sir");
         name.setBounds(110, 15, 100, 18);
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
@@ -91,7 +91,7 @@ public class Client implements ActionListener {
 
         JButton send = new JButton("Send");
         send.setBounds(320, 655, 123, 40);
-        send.setBackground(new Color(7, 94, 84));
+        send.setBackground(new Color(81, 125, 162));
         send.setForeground(Color.WHITE);
         send.addActionListener(this);
         send.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
@@ -138,7 +138,7 @@ public class Client implements ActionListener {
 
         JLabel output = new JLabel("<html><p style=\"width: 150px\">" + out + "</p></html>");
         output.setFont(new Font("Tahoma", Font.PLAIN, 16));
-        output.setBackground(new Color(0,0,0));
+        output.setBackground(new Color(81, 125, 162));
         output.setForeground(Color.WHITE);
         output.setOpaque(true);
         output.setBorder(new EmptyBorder(15, 15, 15, 50));
