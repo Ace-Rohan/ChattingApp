@@ -94,7 +94,8 @@ public class Client implements ActionListener {
         send.setBackground(new Color(81, 125, 162));
         send.setForeground(Color.WHITE);
         send.addActionListener(this);
-        send.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
+        send.setFont(new Font("SAN_SERIF", Font.PLAIN, 
+        16));
         f.add(send);
 
         f.setSize(450, 700);
